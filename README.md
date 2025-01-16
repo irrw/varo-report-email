@@ -1,6 +1,6 @@
 # varo-report-email
 This is an html file of how a varo report could look if html can be passed to gmail.
-
+```
 @startuml
 'https://plantuml.com/class-diagram
 
@@ -19,7 +19,8 @@ FragmentStep --> DataCollectorInteractor
 FragmentStep <.. DataCollectorInteractor
 
 @enduml
-
+```
+```
 @startuml
 'https://plantuml.com/component-diagram'
 
@@ -78,7 +79,8 @@ Fragment -[hidden]-> Activity
 Activity -[hidden]-> Dialog
 
 @enduml
-
+```
+```
 @startuml
 'https://plantuml.com/use-case-diagram
 
@@ -120,3 +122,4 @@ User -d-> (connect)
 (manual) -[hidden]d- (logger)
 
 @enduml
+```
